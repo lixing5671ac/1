@@ -104,20 +104,20 @@ function populatePostUrl(url,reqBody=''){
     let urlObject = {
         url: url,
         headers: {
-Accept-Encoding: gzip,compress,br,deflate
-Connection: keep-alive
-Content-Length: 40
-Host: zj.haier.net
-Referer: https://servicewechat.com/wxe24b2f1f4e378891/83/page-frame.html
-User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.18(0x18001235) NetType/WIFI Language/zh_CN
-accessToken: b0cd89f72d5b4fcc88ba42c72937f264
-appId: MB-SHEZJAPPWXXCX-0000
-appKey: 79ce99cc7f9804663939676031b8a427
-clientId: iOS15311647245153225
-content-type: application/json;charset=UTF-8
-sequenceId: 1647245185956
-sign: 12cea8e18a138ffebcd45e68cefc468094d797d90716e9b357cb3e1e2d835808
-timestamp: 1647245185956},
+'content-type' : `application/json;charset=utf-8`,
+'sign' : `0b0d5a4e6845cf92611997526d30fcc4`,
+'Connection' : `keep-alive`,
+'Accept-Encoding' : `gzip,compress,br,deflate`,
+'clientId' : `iOS15311647245153225`,
+'accessToken' : `b0cd89f72d5b4fcc88ba42c72937f264`,
+'timestamp' : `1647246141796`,
+'appId' : `MB-SHEZJAPPWXXCX-0000`,
+'User-Agent' : `Mozilla/5.0 (iPhone; CPU iPhone OS 15_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.18(0x18001235) NetType/WIFI Language/zh_CN`,
+'Host' : `zj.haier.net`,
+'appKey' : `79ce99cc7f9804663939676031b8a427`,
+'appVersion' : `5.3.0`,
+'Referer' : `https://servicewechat.com/wxe24b2f1f4e378891/83/page-frame.html`
+},
         body: reqBody
     }
     return urlObject;
