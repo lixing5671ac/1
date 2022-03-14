@@ -104,19 +104,22 @@ function populatePostUrl(url,reqBody=''){
     let urlObject = {
         url: url,
         headers: {
-'content-type' : `application/json;charset=utf-8`,
-'sign' : `0b0d5a4e6845cf92611997526d30fcc4`,
-'Connection' : `keep-alive`,
-'Accept-Encoding' : `gzip,compress,br,deflate`,
 'clientId' : `iOS15311647245153225`,
+'Accept-Encoding' : `gzip, deflate, br`,
 'accessToken' : `b0cd89f72d5b4fcc88ba42c72937f264`,
-'timestamp' : `1647246141796`,
+'timestamp' : `1619767593347`,
+'Connection' : `keep-alive`,
+'Content-Type' : `application/json;charset=utf-8`,
 'appId' : `MB-SHEZJAPPWXXCX-0000`,
-'User-Agent' : `Mozilla/5.0 (iPhone; CPU iPhone OS 15_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.18(0x18001235) NetType/WIFI Language/zh_CN`,
+'Origin' : `https://zjrs.haier.net`,
+'User-Agent' : `Mozilla/5.0 (iPhone; CPU iPhone OS 15_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.18(0x18001235) NetType/WIFI Language/zh_CN miniProgram/wxe24b2f1f4e378891`,
+'accountToken' : `b0cd89f72d5b4fcc88ba42c72937f264`,
 'Host' : `zj.haier.net`,
-'appKey' : `79ce99cc7f9804663939676031b8a427`,
-'appVersion' : `5.3.0`,
-'Referer' : `https://servicewechat.com/wxe24b2f1f4e378891/83/page-frame.html`
+'Referer' : `https://zjrs.haier.net/`,
+'appVersion' : `1.0.0`,
+'Accept-Language' : `zh-CN,zh-Hans;q=0.9`,
+'Accept' : `application/json, text/plain, */*`,
+'appKey' : `a12799b727ab6c82d00e0d7051a32cb1`
 },
         body: reqBody
     }
