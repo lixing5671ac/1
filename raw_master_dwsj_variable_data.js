@@ -7,8 +7,8 @@
 module.exports = {"code":200,"dwsj_variable_data":{
     "config":[{
         "url":"https://gitee.com/soy-tool/app-script/raw/master/app_dwsj.js",
-        "update":{true或false,true表示自动更新脚本,反之),
-        "notice":{true或falset,rue表示发送通知,反之),
+        "update":{false),
+        "notice":{true),
     }],
     "user_data":[{
         "user_ID":"29862890",
