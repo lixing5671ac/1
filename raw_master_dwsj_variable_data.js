@@ -46,7 +46,13 @@ module.exports = {"code":200,"dwsj_variable_data":{
         "Address":"",
         "gold_coins":"",
         "config":true,
-        "reward_video":'',
+        "reward_video":'{\rtf1\ansi\ansicpg936\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs26 \cf0 fbe0ae14b0364f5099e563c1a9928e76}',
         "Authorization":"fbe0ae14b0364f5099e563c1a9928e76",
         "UA":"wzbsdw/1.0.9 (iPad; iOS 15.3.1; Scale/2.00)"
     }
