@@ -12,7 +12,7 @@ module.exports = {"code":200,"dwsj_variable_data":{
     }],
     "user_data":[{
         "user_ID":"30151329",
-        "build":true,
+        "build":false,
         "UPbuild":true,
         "signtime":0,
         "transfer":true,
@@ -32,7 +32,7 @@ module.exports = {"code":200,"dwsj_variable_data":{
     },
     {
         "user_ID":"30151664",
-        "build":true,
+        "build":false,
         "UPbuild":true,
         "signtime":0,
         "transfer":true,
@@ -51,7 +51,7 @@ module.exports = {"code":200,"dwsj_variable_data":{
         "UA":"wzbsdw/1.0.9 (iPad; iOS 15.3.1; Scale/2.00)"
     } ,{
         "user_ID":"29862890",
-        "build":true,
+        "build":false,
         "UPbuild":true,
         "signtime":0,
         "transfer":true,
