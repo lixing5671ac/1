@@ -255,7 +255,7 @@ class UserInfo {
             this.house.coin = result.result.coin
             console.log(`账号[${this.index}]我的家金币余额：${this.house.coin}`)
             let sortList = result.result.oreList.sort(function(a,b) {return b.amount-a.amount})
-            if(sortList.length>0 && sortList[0].oreStatus == 0 && this.house.coin >= sortList[0].coin) {
+            if(sortList.length>0 && sortList[0].oreStatus == 0 && this.house.coin >= 15000) {
                 await $.wait(500)
                 await this.houseWithdraw(sortList[0])
             }
