@@ -437,7 +437,7 @@ class UserInfo {
             let auctionStr = (this.auction.status==0) ? '未参与竞拍' : '已参与竞拍'
             console.log(`账号[${this.index}]今天${auctionStr}`)
             let maxBid = parseFloat(result.result.userInfo.usableOre)
-            let bidNum = 1
+            let bidNum = 66
             if(this.runTask == 1) {
                 if(this.auction.status==0) {
                     if(maxBid >= bidNum) {
@@ -448,7 +448,7 @@ class UserInfo {
                     }
                 } else if(this.auction.status==1) {
                     let lastBid = parseInt(result.result.bidInfo.bidOre)
-                    bidNum = (lastBid)%3 + 1
+                    //bidNum = (lastBid)%3 + 1
                     if(maxBid >= bidNum) {
                         await $.wait(500)
                         await this.auctionModify(bidNum,result.result.bidInfo.auctionNumber)
