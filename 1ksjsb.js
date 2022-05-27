@@ -19,7 +19,7 @@ hostname = open.kuaisho*.com
 // ！！！！把 CK 从 环境变量复制进来！！！！
 // 建议增加真实did，不像重新抓包的可以自己胡乱写，保证格式是 ANDROID_11112222233334444（数字部分一共16位，可以是数字和小写字母）
 // 【如果你 CK 太多不添加也行，每次运行会自动随机生成,假的 did 开宝箱只有1金币】
-const ksjsb_cookie = "kuaishou.api_st=Cg9rdWFpc2hvdS5hcGkuc3QSsAEKjkHhytbsfUWvPd-JVm_b1mOZMvlOWvH3xv8jS-n2xKZKFMzz-qgQ49q43reig4G6JaqcPba3OGz09mTYNZAQHb-3uBQIP49DSO21Kc3K1V9Q083wrb6kupavoghC9MHcpOEWCx_YR1PVEVVNjjA3qIxFFMZHTqix2eqN8oID6bO_HNBex-YopSXDNFx315O-pPltF7Wd1LhyebF6jjXT_9I42C0jd08NlF-EMAw6axoSO10xFXRwSIqcekHg3JqdJpRXIiCo4PY-Rurz_ApqUZyxlVn-1KHJVHXCCZZLSMziwu-jWygFMAE; did=B3496F43-F76D-4966-8E1A-C0DDDC43A32D;";
+const ksjsb_cookie = "kuaishou.api_st=Cg9rdWFpc2hvdS5hcGkuc3QSsAEKjkHhytbsfUWvPd-JVm_b1mOZMvlOWvH3xv8jS-n2xKZKFMzz-qgQ49q43reig4G6JaqcPba3OGz09mTYNZAQHb-3uBQIP49DSO21Kc3K1V9Q083wrb6kupavoghC9MHcpOEWCx_YR1PVEVVNjjA3qIxFFMZHTqix2eqN8oID6bO_HNBex-YopSXDNFx315O-pPltF7Wd1LhyebF6jjXT_9I42C0jd08NlF-EMAw6axoSO10xFXRwSIqcekHg3JqdJpRXIiCo4PY-Rurz_ApqUZyxlVn-1KHJVHXCCZZLSMziwu-jWygFMAE; did=B3496F43-F76D-4966-8E1A-C0DDDC43A32D;@kuaishou.api_st=Cg9rdWFpc2hvdS5hcGkuc3QSsAHeHu05oEkvn7Ap1bM-ypu3ykBQJ90BeEInkcyAQV1jdKQ4L-ggltdbbp0RKCBGQKN9ESNKIN_DFcS7YPZdoujVxZGX9ncY-X0JM4vTtNFNL0nE6wcMQV-dLY7GCiFMEpIjI2JBbALbvkwiNpqYybSTZLl21xeNhTc375i5_45uqNHqRJcmIGcjIq1d9OubRp4mjcLc6aKpQfKvREUb-O2j6sBM17AKDwMOPNzPUloWlRoSAbBL62FCSBK90AGy_bo9cyIbIiBDbQwGmNhGc212ri9m31ptr3MJaRU-1ybm-nOOFHgAOygFMAE;did=597D14C9-02E7-4ADA-9951-238D1BCC91CD;";
 const ksjsb_money = ""; // 提现金额，整数字符串，留空表示按照快手返回的金额列表提现。比如'3'，表示每次提现 3 块。【建议留空】
 const ksjsb_hour = 8; // 提现时间，整数，精确到小时。比如 8 就是早上 8 点提现，如果在 8：00-8：59 这一个小时内，脚本没跑，那就是不自动提现【建议改掉】
 const ksjsb_allMoneyOut = 0; // 是否尝试全部提现，0 不全部提现, 1 全部提现。【建议0，配置成1小心黑号】
